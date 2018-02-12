@@ -31,7 +31,13 @@ if __name__ == '__main__':
     load_data('state_reference.csv', 'state_code', 'state-reference', data)
 
 
-    if sys.argv[2]:
+    if len(sys.argv) == 1:
+        print('Usage:')
+        print('  export --json [state]')
+        print('  export --yaml [state]')
+        exit()
+
+    if len(sys.argv) > 2:
         data = data[sys.argv[2]]
 
     if sys.argv[1] == '--json':
