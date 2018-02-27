@@ -199,7 +199,7 @@
       g.append('text')
         .attr('class', 'state')
         .attr('x', (columnWidth - 4) / 2)
-        .attr('y', 30)
+        .attr('y', margin.top)
         .attr('text-anchor', 'middle')
         .attr('z-index', 2)
         .text(d => d)
