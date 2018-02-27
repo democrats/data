@@ -193,6 +193,7 @@
         .attr('x', 0)
         .attr('y', 0)
         .attr('width', columnWidth - 4)
+        .attr('height', 20)
         .on("mouseover", d => showTooltip(names[d]))
         .on("mouseout", hideTooltip);
 
