@@ -88,3 +88,8 @@ text.deadline {
 .legend text.deadline {
     font-size: 12px;
 }
+
+#flags-footnote {
+    text-align: right;
+    font-size: 11px;
+}
