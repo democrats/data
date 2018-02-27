@@ -84,7 +84,7 @@
     // Graphical dimensions
     let totalWidth  = document.body.clientWidth;
     let totalHeight = (window.innerHeight || document.body.clientHeight) - 50;
-    let margin      = { top: 20, right: 40, bottom: 120, left: 20 };
+    let margin      = { top: 30, right: 40, bottom: 120, left: 20 };
     let width       = totalWidth - (margin.right + margin.left);
     let height      = totalHeight - (margin.top + margin.bottom);
     let axisMargin  = 60;
@@ -119,7 +119,8 @@
         .attr('id', 'calendar')
         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
         .attr('width', width)
-        .attr('height', totalHeight);
+        .attr('height', totalHeight)
+        .attr('viewBox', '0 0 ' + width + ' ' + totalHeight);
 
     svg.append('g')
       .attr('transform', 'translate(' + axisMargin + ',' + margin.top + ')')
@@ -179,21 +180,30 @@
 
       let g = s.enter().append('g')
           .attr('class', 'state')
-          .attr('transform', d => 'translate(' + x(d) + ',' + margin.top + ')');
+          .attr('transform', d => 'translate(' + x(d) + ',0)');
 
       g.append('rect')
         .attr('x', 0)
-        .attr('y', 0)
+        .attr('y', margin.top)
         .attr('width', columnWidth - 4)
         .attr('height', yScale(end));
 
       g.append('image')
-        .attr('href', d => 'images/' + d.toLowerCase() + '.png')
+        .attr('xlink:href', d => 'images/' + d.toLowerCase() + '.png')
         .attr('x', 0)
-        .attr('y', - margin.top)
+        .attr('y', 0)
         .attr('width', columnWidth - 4)
         .on("mouseover", d => showTooltip(names[d]))
         .on("mouseout", hideTooltip);
+
+      g.append('text')
+        .attr('class', 'state')
+        .attr('x', (columnWidth - 4) / 2)
+        .attr('y', margin.top)
+        .attr('text-anchor', 'middle')
+        .attr('z-index', 2)
+        .text(d => d)
+
 
     }
 
@@ -221,7 +231,7 @@
           .attr('class', d => d.label.split('_').join(' '))
           .attr('r', 2)
           .attr('cx', (columnWidth - 4)/2)
-          .attr('cy',  d => yScale(dateParser(d.date)))
+          .attr('cy',  d => margin.top + yScale(dateParser(d.date)))
           .on("mouseover", d => showTooltip(tooltipDate(d.date)))
           .on("mouseout", hideTooltip);
 
@@ -236,7 +246,7 @@
           .append('rect')
           .attr('class', d => 'early_vote ' + d.type)
           .attr('x', d => ((columnWidth - 4)/2) - 2)
-          .attr('y', d => yScale(dateParser(d.start)))
+          .attr('y', d => margin.top + yScale(dateParser(d.start)))
           .attr('width', 4)
           .attr('height', d => yScale(dateParser(d.end)) - yScale(dateParser(d.start)))
           .on("mouseover", d => showTooltip(tooltipDate(d.start) + ' to ' + tooltipDate(d.end)))

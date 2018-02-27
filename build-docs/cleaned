@@ -4,7 +4,7 @@ from collections import defaultdict
 import re
 import json
 
-date = re.compile(r'^\d{4}-\d{2}-\d{2}$')
+date = re.compile(r'^2018-\d{2}-\d{2}$')
 
 translations = {
     'early-vote_general_ballot_return_date'                            : 'early_vote_general_ballot_return',
