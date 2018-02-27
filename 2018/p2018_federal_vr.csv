@@ -2,7 +2,7 @@ state_code,p2018_federal_vr_deadline,p2018_federal_online_vr_deadline,p2018_fede
 AL,2018-05-21,,,,
 AK,2018-07-22,,,,
 AZ,2018-07-30,,,,
-AR,,,,,
+AR,2018-04-23,,,,
 CA,2018-05-21,,,,
 CO,2018-06-18,,,,
 CT,2018-08-09,,,,
@@ -14,21 +14,21 @@ ID,2018-04-20,,,,
 IL,2018-02-20,2018-03-04,,,"Voters in Illinois can register to vote on any day, including Election Day"
 IN,2018-04-09,2018-04-09,,,
 IA,2018-05-25,,,,
-KS,2018-07-12,,,,"Kansas still has 2016 information on their website, so this is our best guess at the moment."
+KS,2018-07-17,,,,"Kansas still has 2016 information on their website, so this is our best guess at the moment."
 KY,2018-04-23,,,,
 LA,2018-10-09,2018-10-16,,,Online voter registration deadline is 2018-10-16
 ME,,,,,
 MD,2018-06-05,,,,
-MA,,,,,
+MA,2018-08-29,,,,
 MI,2018-07-09,,,,
 MN,2018-07-24,,,,
 MS,2018-05-07,,,,2018-10-09 is the deadline to register to vote by mail
 MO,2018-07-11,,,,
-MT,2018-05-07,,,,"Regular voter registration closes at 5 p.m. on 2018-05-07.
-Individuals can late-register at the county election office beginning the next day and through close of polls on election day."
+MT,2018-05-07,,,,"Regular voter registration closes at 5 p.m. on 2018-05-07. Individuals can late-register at the county election office beginning the next day and through close of polls on election day."
 NE,2018-04-30,2018-04-30,,,
-NV,2018-05-14,2018-05-24,,,In-person deadline is 2018-10-16; online voter registration deadline is 2018-10-18
-NH,,,,,
+NV,2018-05-22,2018-05-24,,,In-person deadline is 10/16/2018; online voter registration deadline is 10/18/2018
+NH,2018-06-05,,,,"Last day for voters already registered to change or declare a party affiliation. Only undeclared voters may
+declare a party and vote on primary election day. RSA 654:34"
 NJ,2018-05-15,,,,
 NM,2018-05-08,,,,
 NY,2018-06-01,,,,
@@ -37,19 +37,19 @@ ND,,,,,Voters do not register in North Dakota
 OH,2018-04-09,,,,
 OK,2018-06-01,,,,
 OR,2018-04-24,,,,
-PA,,,,,
-RI,,,,,
+PA,2018-04-16,,,,
+RI,2018-08-13,,,,
 SC,2018-05-11,2018-05-13,,,
 SD,2018-05-21,,,,
 TN,2018-07-03,,,,
 TX,2018-02-05,,,,
 UT,2018-05-29,,,,
-VT,,,,,"Voters in Vermont can register to vote on any day, including Election Day"
-VA,,,,,
+VT,2018-08-14,2018-08-14,,,"Voters in Vermont can register to vote on any day, including Election Day"
+VA,2018-05-21,,,,
 WA,2018-07-30,2018-07-09,,,
 WV,,,,,
 WI,2018-07-25,2018-07-25,,,
-WY,,,,,
+WY,2018-08-06,,,,
 AS,,,,,
 DC,2018-06-19,2018-05-29,,,On Election Day qualified electors may register to vote and cast full ballots at the polling places for their precincts of residence
 FM,,,,,

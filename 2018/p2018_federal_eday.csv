@@ -25,7 +25,7 @@ MN,,8:00:00 PM,Polling place hours vary by town/municipality
 MS,7:00:00 AM,7:00:00 PM,
 MO,6:00:00 AM,7:00:00 PM,
 MT,,8:00:00 PM,Polling place hours vary by precinct
-NE,,,Polling place hours vary by time zone
+NE,,8:00:00 PM,Polling place hours vary by time zone
 NV,7:00:00 AM,7:00:00 PM,
 NH,,7:00:00 PM,Polling place hours vary by town/municipality
 NJ,6:00:00 AM,8:00:00 PM,
@@ -35,7 +35,7 @@ NC,6:30:00 AM,7:30:00 PM,
 ND,,,Polling place hours vary by precinct
 OH,6:30:00 AM,7:30:00 PM,
 OK,7:00:00 AM,7:00:00 PM,
-OR,,,
+OR,,8:00:00 PM,
 PA,7:00:00 AM,8:00:00 PM,
 RI,,8:00:00 PM,
 SC,7:00:00 AM,7:00:00 PM,
