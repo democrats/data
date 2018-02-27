@@ -16,11 +16,6 @@
   },
   {
     "state": "AL",
-    "label": "special_primary_state_election",
-    "date": "2017-12-12"
-  },
-  {
-    "state": "AL",
     "label": "special_primary_state_runoff_election",
     "date": "2018-02-27"
   },
