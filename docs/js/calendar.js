@@ -83,7 +83,7 @@
 
     // Graphical dimensions
     let totalWidth  = document.body.clientWidth;
-    let totalHeight = window.innerHeight || document.body.clientHeight;
+    let totalHeight = (window.innerHeight || document.body.clientHeight) - 50;
     let margin      = { top: 20, right: 40, bottom: 120, left: 20 };
     let width       = totalWidth - (margin.right + margin.left);
     let height      = totalHeight - (margin.top + margin.bottom);
@@ -125,6 +125,9 @@
       .attr('transform', 'translate(' + axisMargin + ',' + margin.top + ')')
       .call(yAxis);
 
+    d3.select('body').append('p')
+      .attr('id', 'flags-footnote')
+      .html('<a title="Flags of the U.S. states from Flagepedia." href="http://usa.flagpedia.net/">Flags of the U.S. states from Flagepedia.</a>');
 
     function addLegend () {
 
