@@ -1,7 +1,19 @@
 files := all.json cleaned.json dates.json early_vote.json elections.json deadlines.json
 
+html    := index.html
+js	:= $(wildcard js/*.js)
+css	:= $(wildcard css/*.css)
+images	:= $(wildcard images/*)
+json	:= elections.json early_vote.json deadlines.json
+
+to_publish := $(addprefix ../docs/,$(html) $(css) $(js) $(images) $(json))
 
 all: $(files)
+
+#
+# Publish to the docs dir where github pages will pick it up.
+#
+publish: $(to_publish)
 
 all.json:
 	(cd ..; ./export | jq .) > $@
@@ -24,8 +36,15 @@ early_vote.json: cleaned.json
 		{ state: .key, type: "federal_primary", start: .value.federal_primary_early_vote_in_person_start, end: .value.federal_primary_early_vote_in_person_close } | \
 		select(.start) | select(.start < "2018-11-06") ]' $< > $@
 
+../docs/%: %
+	mkdir -p $(dir $@)
+	cp $< $@
+
+
+
 tidy:
 	rm -f *~
 
 clean: tidy
 	rm -f $(files)
+	rm -rf ../docs
