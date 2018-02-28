@@ -205,6 +205,10 @@
         .attr('z-index', 2)
         .text(d => d)
 
+      g.append('g').attr('class', 'early-vote');
+      g.append('g').attr('class', 'elections');
+      g.append('g').attr('class', 'deadlines');
+
 
     }
 
@@ -225,7 +229,7 @@
       election_dates = election_dates.concat(extraElections());
 
       d3.select('#calendar').selectAll('g.state').each(function (state) {
-        d3.select(this).selectAll('circle.election').data(election_dates)
+        d3.select(this).select('g.elections').selectAll('circle.election').data(election_dates)
           .enter()
           .filter(d =>  d.state == state)
           .append('circle')
@@ -241,7 +245,7 @@
 
     function earlyVotes(early_vote) {
       d3.select('#calendar').selectAll('g.state').each(function (state) {
-        d3.select(this).selectAll('rect.early_vote').data(early_vote)
+        d3.select(this).select('g.early-vote').selectAll('rect.early_vote').data(early_vote)
           .enter()
           .filter(d => d.state == state)
           .append('rect')
@@ -258,7 +262,7 @@
 
     function deadlines(dates) {
       d3.select('#calendar').selectAll('g.state').each(function (state) {
-        d3.select(this).selectAll('text.deadline').data(dates)
+        d3.select(this).select('g.deadlines').selectAll('text.deadline').data(dates)
           .enter()
           .filter(d => d.state == state)
           .append('text')
