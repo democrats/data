@@ -32,7 +32,7 @@
   {
     "state": "AR",
     "type": "federal_primary",
-    "start": "2018-05-09",
+    "start": "2018-05-07",
     "end": "2018-05-21"
   },
   {
@@ -50,20 +50,20 @@
   {
     "state": "CO",
     "type": "general",
-    "start": "2018-10-30",
+    "start": "2018-10-22",
     "end": "2018-11-06"
   },
   {
     "state": "CO",
     "type": "federal_primary",
-    "start": "2018-06-19",
+    "start": "2018-06-18",
     "end": "2018-06-26"
   },
   {
     "state": "FL",
     "type": "general",
-    "start": "2018-10-26",
-    "end": "2018-11-02"
+    "start": "2018-10-27",
+    "end": "2018-11-03"
   },
   {
     "state": "FL",
@@ -92,8 +92,8 @@
   {
     "state": "HI",
     "type": "federal_primary",
-    "start": "2018-07-24",
-    "end": "2018-08-04"
+    "start": "2018-07-30",
+    "end": "2018-08-09"
   },
   {
     "state": "ID",
@@ -111,13 +111,13 @@
     "state": "IL",
     "type": "general",
     "start": "2018-10-22",
-    "end": "2018-11-03"
+    "end": "2018-11-05"
   },
   {
     "state": "IL",
     "type": "federal_primary",
     "start": "2018-03-05",
-    "end": "2018-03-17"
+    "end": "2018-03-19"
   },
   {
     "state": "IN",
@@ -128,8 +128,8 @@
   {
     "state": "IN",
     "type": "federal_primary",
-    "start": "2018-03-06",
-    "end": "2018-04-06"
+    "start": "2018-04-10",
+    "end": "2018-05-07"
   },
   {
     "state": "IA",
@@ -188,13 +188,13 @@
   {
     "state": "MD",
     "type": "general",
-    "start": "2018-10-27",
+    "start": "2018-10-25",
     "end": "2018-11-01"
   },
   {
     "state": "MD",
     "type": "federal_primary",
-    "start": "2018-06-16",
+    "start": "2018-06-14",
     "end": "2018-06-21"
   },
   {
@@ -242,7 +242,7 @@
   {
     "state": "NE",
     "type": "federal_primary",
-    "start": "2018-04-10",
+    "start": "2018-04-16",
     "end": "2018-05-14"
   },
   {
@@ -296,7 +296,7 @@
   {
     "state": "OK",
     "type": "general",
-    "start": "2018-10-29",
+    "start": "2018-11-01",
     "end": "2018-11-03"
   },
   {
@@ -304,6 +304,12 @@
     "type": "federal_primary",
     "start": "2018-06-21",
     "end": "2018-06-23"
+  },
+  {
+    "state": "SC",
+    "type": "federal_primary",
+    "start": "2018-05-14",
+    "end": "2018-06-11"
   },
   {
     "state": "SD",
@@ -320,14 +326,14 @@
   {
     "state": "TN",
     "type": "general",
-    "start": "2018-10-19",
-    "end": "2018-11-03"
+    "start": "2018-10-17",
+    "end": "2018-11-01"
   },
   {
     "state": "TN",
     "type": "federal_primary",
     "start": "2018-07-13",
-    "end": "2018-07-27"
+    "end": "2018-07-28"
   },
   {
     "state": "TX",
@@ -362,7 +368,7 @@
   {
     "state": "VT",
     "type": "federal_primary",
-    "start": "2018-07-02",
+    "start": "2018-06-30",
     "end": "2018-08-13"
   },
   {
@@ -374,8 +380,8 @@
   {
     "state": "VA",
     "type": "federal_primary",
-    "start": "2018-04-28",
-    "end": "2018-06-08"
+    "start": "2018-04-27",
+    "end": "2018-06-11"
   },
   {
     "state": "WV",
@@ -399,7 +405,7 @@
     "state": "WY",
     "type": "general",
     "start": "2018-09-27",
-    "end": "2018-11-06"
+    "end": "2018-11-05"
   },
   {
     "state": "WY",
