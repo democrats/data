@@ -2,14 +2,16 @@
 
   // For the momement only show the 50 states since that's what I have the flags for.
   let states = [
-    'AK', 'AL', 'AR', 'AZ', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
-    'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD',
-    'ME', 'MI', 'MN', 'MO', 'MS', 'MT', 'NC', 'ND', 'NE', 'NH',
-    'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC',
-    'SD', 'TN', 'TX', 'UT', 'VA', 'VT', 'WA', 'WI', 'WV', 'WY'
+    'AK', 'AL', 'AR', 'AZ', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL',
+    'GA', 'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA',
+    'MD', 'ME', 'MI', 'MN', 'MO', 'MS', 'MT', 'NC', 'ND', 'NE',
+    'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'RI',
+    'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'VT', 'WA', 'WI', 'WV',
+    'WY',
   ];
 
-  let nonStates = [ 'AS', 'DC', 'FM', 'GU', 'MH', 'MP', 'PR', 'PW', 'VI' ];
+
+  let territories = [ 'AS', 'FM', 'GU', 'MH', 'MP', 'PR', 'PW', 'VI' ];
 
   let names = {
     'AK': 'Alaska',
@@ -81,12 +83,20 @@
 
     let dateParser = d3.timeParse('%Y-%m-%d');
 
+    let use32aspect = false;
+
     // Graphical dimensions
     let totalWidth  = document.body.clientWidth;
-    let totalHeight = (window.innerHeight || document.body.clientHeight) - 50;
-    let margin      = { top: 30, right: 40, bottom: 120, left: 20 };
+    let totalHeight = (window.innerHeight || document.body.clientHeight);
+
+    // Margins around the SVG.
+    let margin      = { top: 20, right: 60, bottom: 20, left: 20 };
+
+    // SVG demensions
     let width       = totalWidth - (margin.right + margin.left);
-    let height      = totalHeight - (margin.top + margin.bottom);
+    let height      = use32aspect ? width * 2/3 : totalHeight - (margin.top + margin.bottom);
+    let flagSpace   = 30;
+    let legendSpace = 120;
     let axisMargin  = 60;
     let axisPadding = 10;
     let columnWidth = (width - (axisMargin + axisPadding)) / states.length;
@@ -105,7 +115,7 @@
       tooltip.transition().duration(500).style("opacity", 0);
     }
 
-    let yScale = d3.scaleTime().domain([start, end]).range([0, height - margin.top]);
+    let yScale = d3.scaleTime().domain([start, end]).range([0, height - (flagSpace + legendSpace)]);
 
     let yAxis = d3.axisLeft(yScale)
         .tickFormat(d3.timeFormat("%B"))
@@ -117,24 +127,26 @@
 
     let svg = d3.select('body').append('svg')
         .attr('id', 'calendar')
-        .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+        .attr('style', 'margin: ' + margin.top + ' ' + margin.right + ' ' + margin.bottom + ' ' + margin.left)
         .attr('width', width)
-        .attr('height', totalHeight)
-        .attr('viewBox', '0 0 ' + width + ' ' + totalHeight);
+        .attr('height', height)
+        .attr('viewBox', '0 0 ' + width + ' ' + height);
 
     svg.append('g')
-      .attr('transform', 'translate(' + axisMargin + ',' + margin.top + ')')
+      .attr('transform', 'translate(' + axisMargin + ',' + flagSpace + ')')
       .call(yAxis);
 
+    /*
     d3.select('body').append('p')
       .attr('id', 'flags-footnote')
       .html('<a title="Flags of the U.S. states from Flagepedia." href="http://usa.flagpedia.net/">Flags of the U.S. states from Flagepedia.</a>');
+    */
 
     function addLegend () {
 
       let legend = svg.append('g')
           .attr('class', 'legend')
-          .attr('transform', 'translate(' + (axisMargin * 2.0) + ',' + (height + 15) + ')');
+          .attr('transform', 'translate(' + (axisMargin * 2.0) + ',' + (yScale(end) + 40) + ')');
 
       // Legend
       legend.append('circle').attr('class', 'federal general').attr('cx', 20) .attr('cy', 20);
@@ -167,6 +179,26 @@
         .attr('width', 4)
         .attr('height', 60);
       legend.append('text').attr('x', 486).attr('y', 40).text('Early vote in person');
+
+
+      let foo = (axisMargin * 2.0) + 20;
+      legend
+        .append('a').attr('href', 'https://github.com/democrats/election-calendar')
+        .append('text')
+        .attr('class', 'cite')
+        .attr('text-anchor', 'end')
+        .attr('x', width - foo)
+        .attr('y', 20)
+        .text('Election data from https://github.com/democrats/election-calendar');
+
+      legend
+        .append('a').attr('href', 'http://usa.flagpedia.net')
+        .append('text')
+        .attr('class', 'cite')
+        .attr('text-anchor', 'end')
+        .attr('x', width - foo)
+        .attr('y', 35)
+        .text('Flags of the U.S. states from http://usa.flagpedia.net');
     }
 
     function stateColumn(state) {
@@ -184,7 +216,7 @@
 
       g.append('rect')
         .attr('x', 0)
-        .attr('y', margin.top)
+        .attr('y', flagSpace)
         .attr('width', columnWidth - 4)
         .attr('height', yScale(end));
 
@@ -200,7 +232,7 @@
       g.append('text')
         .attr('class', 'state')
         .attr('x', (columnWidth - 4) / 2)
-        .attr('y', margin.top)
+        .attr('y', flagSpace)
         .attr('text-anchor', 'middle')
         .attr('z-index', 2)
         .text(d => d)
@@ -236,7 +268,7 @@
           .attr('class', d => d.label.split('_').join(' '))
           .attr('r', 2)
           .attr('cx', (columnWidth - 4)/2)
-          .attr('cy',  d => margin.top + yScale(dateParser(d.date)))
+          .attr('cy',  d => flagSpace + yScale(dateParser(d.date)))
           .on("mouseover", d => showTooltip(tooltipDate(d.date)))
           .on("mouseout", hideTooltip);
 
@@ -251,7 +283,7 @@
           .append('rect')
           .attr('class', d => 'early_vote ' + d.type)
           .attr('x', d => ((columnWidth - 4)/2) - 2)
-          .attr('y', d => margin.top + yScale(dateParser(d.start)))
+          .attr('y', d => flagSpace + yScale(dateParser(d.start)))
           .attr('width', 4)
           .attr('height', d => yScale(dateParser(d.end)) - yScale(dateParser(d.start)))
           .on("mouseover", d => showTooltip(tooltipDate(d.start) + ' to ' + tooltipDate(d.end)))

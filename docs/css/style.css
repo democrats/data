@@ -60,6 +60,7 @@ div.tooltip {
     border: 0px;
     border-radius: 2px;
     pointer-events: none;
+    z-index: 1;
 }
 
 rect.early_vote {
@@ -92,4 +93,10 @@ text.state {
     fill: #335;
     font-family: sans-serif;
     font-size: 12px;
+}
+
+text.cite {
+    fill: #335;
+    font-family: sans-serif;
+    font-size: 10px;
 }
