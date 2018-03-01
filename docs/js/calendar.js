@@ -136,11 +136,6 @@
       .attr('transform', 'translate(' + axisMargin + ',' + flagSpace + ')')
       .call(yAxis);
 
-    /*
-    d3.select('body').append('p')
-      .attr('id', 'flags-footnote')
-      .html('<a title="Flags of the U.S. states from Flagepedia." href="http://usa.flagpedia.net/">Flags of the U.S. states from Flagepedia.</a>');
-    */
 
     function addLegend () {
 
@@ -181,13 +176,13 @@
       legend.append('text').attr('x', 486).attr('y', 40).text('Early vote in person');
 
 
-      let foo = (axisMargin * 2.0) + 20;
+      let textEnd = (axisMargin * 2.0) + 20;
       legend
         .append('a').attr('href', 'https://github.com/democrats/election-calendar')
         .append('text')
         .attr('class', 'cite')
         .attr('text-anchor', 'end')
-        .attr('x', width - foo)
+        .attr('x', width - textEnd)
         .attr('y', 20)
         .text('Election data from https://github.com/democrats/election-calendar');
 
@@ -196,7 +191,7 @@
         .append('text')
         .attr('class', 'cite')
         .attr('text-anchor', 'end')
-        .attr('x', width - foo)
+        .attr('x', width - textEnd)
         .attr('y', 35)
         .text('Flags of the U.S. states from http://usa.flagpedia.net');
     }
