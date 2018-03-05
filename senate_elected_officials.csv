@@ -1,0 +1,101 @@
+state_code,party,first_name,last_name,majority_leader,minority_leader,majority_whip,minority_whip,next_election
+WI,D,Tammy,Baldwin,0,0,0,0,11/6/18
+OH,D,Sherrod,Brown,0,0,0,0,11/6/18
+WA,D,Maria,Cantwell,0,0,0,0,11/6/18
+MD,D,Benjamin L.,Cardin,0,0,0,0,11/6/18
+DE,D,Thomas R.,Carper,0,0,0,0,11/6/18
+PA,D,Robert P.,Casey,0,0,0,0,11/6/18
+IN,D,Joe,Donnelly,0,0,0,0,11/6/18
+CA,D,Dianne,Feinstein,0,0,0,0,11/6/18
+NY,D,Kirsten E.,Gillibrand,0,0,0,0,11/6/18
+NM,D,Martin,Heinrich,0,0,0,0,11/6/18
+ND,D,Heidi,Heitkamp,0,0,0,0,11/6/18
+HI,D,Mazie K.,Hirono,0,0,0,0,11/6/18
+VA,D,Tim,Kaine,0,0,0,0,11/6/18
+MN,D,Amy,Klobuchar,0,0,0,0,11/6/18
+WV,D,Joe III,Manchin,0,0,0,0,11/6/18
+MO,D,Claire,McCaskill,0,0,0,0,11/6/18
+NJ,D,Robert,Menendez,0,0,0,0,11/6/18
+CT,D,Christopher,Murphy,0,0,0,0,11/6/18
+FL,D,Bill,Nelson,0,0,0,0,11/6/18
+MI,D,Debbie,Stabenow,0,0,0,0,11/6/18
+MT,D,Jon,Tester,0,0,0,0,11/6/18
+MA,D,Elizabeth,Warren,0,0,0,0,11/6/18
+RI,D,Sheldon,Whitehouse,0,0,0,0,11/6/18
+ME,I,Angus S.,King,0,0,0,0,11/6/18
+VT,I,Bernard,Sanders,0,0,0,0,11/6/18
+WY,R,John,Barrasso,0,0,0,0,11/6/18
+TN,R,Bob,Corker,0,0,0,0,11/6/18
+TX,R,Ted,Cruz,0,0,0,0,11/6/18
+NE,R,Deb,Fischer,0,0,0,0,11/6/18
+AZ,R,Jeff,Flake,0,0,0,0,11/6/18
+UT,R,Orrin G.,Hatch,0,0,0,0,11/6/18
+NV,R,Dean,Heller,0,0,0,0,11/6/18
+MS,R,Roger F.,Wicker,0,0,0,0,11/6/18
+NJ,D,Cory A.,Booker,0,0,0,0,11/3/20
+DE,D,Christopher A.,Coons,0,0,0,0,11/3/20
+IL,D,Richard J.,Durbin,0,0,0,1,11/3/20
+AL,D,Doug,Jones,0,0,0,0,11/3/20
+MA,D,Edward J.,Markey,0,0,0,0,11/3/20
+OR,D,Jeff,Merkley,0,0,0,0,11/3/20
+MI,D,Gary C.,Peters,0,0,0,0,11/3/20
+RI,D,Jack,Reed,0,0,0,0,11/3/20
+NH,D,Jeanne,Shaheen,0,0,0,0,11/3/20
+MN,D,Tina,Smith,0,0,0,0,11/3/20
+NM,D,Tom,Udall,0,0,0,0,11/3/20
+VA,D,Mark R.,Warner,0,0,0,0,11/3/20
+TN,R,Lamar,Alexander,0,0,0,0,11/3/20
+WV,R,Shelley Moore,Capito,0,0,0,0,11/3/20
+LA,R,Bill,Cassidy,0,0,0,0,11/3/20
+MS,R,Thad,Cochran,0,0,0,0,11/3/20
+ME,R,Susan M.,Collins,0,0,0,0,11/3/20
+TX,R,John,Cornyn,0,0,1,0,11/3/20
+AR,R,Tom,Cotton,0,0,0,0,11/3/20
+MT,R,Steve,Daines,0,0,0,0,11/3/20
+WY,R,Michael B.,Enzi,0,0,0,0,11/3/20
+IA,R,Joni,Ernst,0,0,0,0,11/3/20
+CO,R,Cory,Gardner,0,0,0,0,11/3/20
+SC,R,Lindsey,Graham,0,0,0,0,11/3/20
+OK,R,James M.,Inhofe,0,0,0,0,11/3/20
+KY,R,Mitch,McConnell,1,0,0,0,11/3/20
+GA,R,David,Perdue,0,0,0,0,11/3/20
+ID,R,James E.,Risch,0,0,0,0,11/3/20
+KS,R,Pat,Roberts,0,0,0,0,11/3/20
+SD,R,Mike,Rounds,0,0,0,0,11/3/20
+NE,R,Ben,Sasse,0,0,0,0,11/3/20
+AK,R,Dan,Sullivan,0,0,0,0,11/3/20
+NC,R,Thom,Tillis,0,0,0,0,11/3/20
+CO,D,Michael F.,Bennet,0,0,0,0,11/8/22
+CT,D,Richard,Blumenthal,0,0,0,0,11/8/22
+NV,D,Catherine,Cortez Masto,0,0,0,0,11/8/22
+IL,D,Tammy,Duckworth,0,0,0,0,11/8/22
+CA,D,Kamala D.,Harris,0,0,0,0,11/8/22
+NH,D,Margaret Wood,Hassan,0,0,0,0,11/8/22
+VT,D,Patrick J.,Leahy,0,0,0,0,11/8/22
+WA,D,Patty,Murray,0,0,0,0,11/8/22
+HI,D,Brian,Schatz,0,0,0,0,11/8/22
+NY,D,Charles E.,Schumer,0,1,0,0,11/8/22
+MD,D,Chris,Van Hollen,0,0,0,0,11/8/22
+OR,D,Ron,Wyden,0,0,0,0,11/8/22
+MO,R,Roy,Blunt,0,0,0,0,11/8/22
+AR,R,John,Boozman,0,0,0,0,11/8/22
+NC,R,Richard,Burr,0,0,0,0,11/8/22
+ID,R,Mike,Crapo,0,0,0,0,11/8/22
+IA,R,Chuck,Grassley,0,0,0,0,11/8/22
+ND,R,John,Hoeven,0,0,0,0,11/8/22
+GA,R,Johnny,Isakson,0,0,0,0,11/8/22
+WI,R,Ron,Johnson,0,0,0,0,11/8/22
+LA,R,John,Kennedy,0,0,0,0,11/8/22
+OK,R,James,Lankford,0,0,0,0,11/8/22
+UT,R,Mike,Lee,0,0,0,0,11/8/22
+AZ,R,John,McCain,0,0,0,0,11/8/22
+KS,R,Jerry,Moran,0,0,0,0,11/8/22
+AK,R,Lisa,Murkowski,0,0,0,0,11/8/22
+KY,R,Rand,Paul,0,0,0,0,11/8/22
+OH,R,Rob,Portman,0,0,0,0,11/8/22
+FL,R,Marco,Rubio,0,0,0,0,11/8/22
+SC,R,Tim,Scott,0,0,0,0,11/8/22
+AL,R,Richard C.,Shelby,0,0,0,0,11/8/22
+SD,R,John,Thune,0,0,0,0,11/8/22
+PA,R,Patrick J.,Toomey,0,0,0,0,11/8/22
+IN,R,Todd,Young,0,0,0,0,11/8/22
