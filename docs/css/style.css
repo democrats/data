@@ -8,21 +8,25 @@ g.primary {
 }
 
 g.tick line {
-    stroke: #888;
-    stroke-width: 0.5px;
+    stroke: #ddd;
     fill: none;
 }
-g.tick text{
-    fill: #888;
+g.tick text {
+    fill: #335;
     stroke: none;
 }
 
-g.state:nth-child(odd) {
-    fill: rgba(0,0,256,0.05);
+g.state rect.shading {
+    opacity:0.3;
 }
-g.state:nth-child(even) {
-    fill: rgba(256,0,0,0.05);
+
+g.state:nth-child(odd) rect.shading {
+    fill: #00aef3;
 }
+g.state:nth-child(even) rect.shading {
+    fill: #e31818;
+}
+
 
 line.election {
     fill: none;
@@ -31,15 +35,16 @@ line.election {
 }
 
 circle {
-    stroke-width: 2px;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
     r: 3;
 }
 
-circle.federal         { stroke: #00f; }
-circle.state           { stroke: #f00; }
+circle.federal         { stroke: #00589c; }
+circle.state           { stroke: #e31818; }
 circle.primary         { fill: none; }
-circle.federal.general { fill: #00f; }
-circle.state.general   { fill: #f00; }
+circle.federal.general { fill: #00589c; }
+circle.state.general   { fill: #e31818; }
 
 
 g.date, text.label {
@@ -64,7 +69,7 @@ div.tooltip {
 }
 
 rect.early_vote {
-    fill: #f88;
+    fill:#E31818;
 }
 
 line.deadline {
@@ -79,8 +84,15 @@ text.deadline {
     font-size: 9px;
 }
 
+.legend text {
+    fill: #335;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
 .legend text.deadline {
     font-size: 12px;
+
 }
 
 #flags-footnote {
@@ -90,13 +102,11 @@ text.deadline {
 
 text.state {
     stroke: none;
-    fill: #335;
+    fill: #557;
     font-family: sans-serif;
     font-size: 12px;
 }
 
 text.cite {
-    fill: #335;
-    font-family: sans-serif;
     font-size: 10px;
 }
