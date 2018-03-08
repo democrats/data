@@ -95,8 +95,11 @@
     // SVG demensions
     let width       = totalWidth - (margin.right + margin.left);
     let height      = use32aspect ? width * 2/3 : totalHeight - (margin.top + margin.bottom);
+    let logoSpace   = 185;
     let flagSpace   = 30;
     let legendSpace = 120;
+    let axisStart   = logoSpace + flagSpace;
+    let axisHeight  = height - (logoSpace + flagSpace + legendSpace);
     let axisMargin  = 60;
     let axisPadding = 10;
     let columnWidth = (width - (axisMargin + axisPadding)) / states.length;
@@ -115,7 +118,7 @@
       tooltip.transition().duration(500).style("opacity", 0);
     }
 
-    let yScale = d3.scaleTime().domain([start, end]).range([0, height - (flagSpace + legendSpace)]);
+    let yScale = d3.scaleTime().domain([start, end]).range([0, axisHeight]);
 
     let yAxis = d3.axisLeft(yScale)
         .tickFormat(d3.timeFormat("%B"))
@@ -132,16 +135,24 @@
         .attr('height', height)
         .attr('viewBox', '0 0 ' + width + ' ' + height);
 
-    svg.append('g')
-      .attr('transform', 'translate(' + axisMargin + ',' + flagSpace + ')')
-      .call(yAxis);
+    function addLogo() {
+      let logo = svg.append('g')
+          .attr('class', 'logo')
+          .attr('transform', 'translate(' + (axisMargin + axisPadding) + ',0)')
+
+      logo.append('image')
+        .attr('xlink:href', 'images/dnc.svg')
+        .attr('x', 0)
+        .attr('y', 0)
+        .attr('width', width - (axisMargin + axisPadding));
+    }
 
 
     function addLegend () {
 
       let legend = svg.append('g')
           .attr('class', 'legend')
-          .attr('transform', 'translate(' + (axisMargin * 2.0) + ',' + (yScale(end) + 40) + ')');
+          .attr('transform', 'translate(' + (axisMargin * 2.0) + ',' + (logoSpace + axisHeight + 40) + ')');
 
       // Legend
       legend.append('circle').attr('class', 'federal general').attr('cx', 20) .attr('cy', 20);
@@ -201,7 +212,15 @@
     }
 
     function setupStates(states) {
-      let s = d3.select('#calendar').append('g').selectAll('g.state').data(states);
+      let chart = d3.select('#calendar').append('g')
+          .attr('class', 'chart')
+          .attr('transform', 'translate(0,' + logoSpace + ')');
+
+      chart.append('g')
+        .attr('transform', 'translate(' + axisMargin + ',' + flagSpace + ')')
+        .call(yAxis);
+
+      let s = chart.selectAll('g.state').data(states);
 
       function x (d) { return axisMargin + axisPadding + stateColumn(d); }
 
@@ -210,10 +229,11 @@
           .attr('transform', d => 'translate(' + x(d) + ',0)');
 
       g.append('rect')
+        .attr('class', 'shading')
         .attr('x', 0)
-        .attr('y', flagSpace)
+        .attr('y', flagSpace + 4)
         .attr('width', columnWidth - 4)
-        .attr('height', yScale(end));
+        .attr('height', (yScale(end) - yScale(start)) - 4);
 
       g.append('image')
         .attr('xlink:href', d => 'images/' + d.toLowerCase() + '.png')
@@ -295,7 +315,7 @@
           .append('text')
           .attr('class', 'deadline')
           .attr('x', (columnWidth - 4) / 2)
-          .attr('y', d => yScale(dateParser(d.date)) + 4)
+          .attr('y', d => flagSpace + yScale(dateParser(d.date)) + 4)
           .attr('text-anchor', 'middle')
           .text(d => d.label)
           .on("mouseover", d => showTooltip(tooltipDate(d.date)))
@@ -304,6 +324,7 @@
       });
     }
 
+    addLogo();
     setupStates(states);
     addLegend();
 
