@@ -144,7 +144,9 @@
         .attr('xlink:href', 'images/dnc.svg')
         .attr('x', 0)
         .attr('y', 0)
-        .attr('width', width - (axisMargin + axisPadding));
+        .attr('height', logoSpace - 20)
+        .attr('width', width - (axisMargin + axisPadding))
+      ;
     }
 
 
