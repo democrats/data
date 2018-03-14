@@ -10,5 +10,3 @@ your information, preferably primary sources such as the Secretary of
 State's website for the given state. Please add any links that you
 cite to `footnotes.yaml`. (You can use the script `clean_footnotes` to
 keep that file tidy.)
-
-See a [visual calendar](https://democrats.github.io/election-calendar/) based on the data.
