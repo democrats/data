@@ -1,0 +1,227 @@
+state_code,office,party,first_name,last_name,next_election
+AL,attorney general,R,Steve,Marshall,11/6/18
+AR,attorney general,R,Leslie,Rutledge,11/6/18
+AZ,attorney general,R,Mark,Brnovich,11/6/18
+CA,attorney general,D,Xavier,Becerra,11/6/18
+CO,attorney general,R,Cynthia,Coffman,11/6/18
+CT,attorney general,D,George,Jepsen,11/6/18
+DE,attorney general,D,Matthew,Denn,11/6/18
+FL,attorney general,R,Pam,Bondi,11/6/18
+GA,attorney general,R,Chris,Carr,11/6/18
+IA,attorney general,D,Tom,Miller,11/6/18
+ID,attorney general,R,Lawrence,Wasden,11/6/18
+IL,attorney general,D,Lisa,Madigan,11/6/18
+IN,attorney general,R,Curtis,Hill Jr.,11/3/20
+KS,attorney general,R,Derek,Schmidt,11/6/18
+KY,attorney general,D,Andy,Beshear,11/3/20
+LA,attorney general,R,Jeff,Landry,10/12/19
+MA,attorney general,D,Maura,Healey,11/6/18
+MD,attorney general,D,Brian,Frosh,11/6/18
+MI,attorney general,R,Bill,Schuette,11/6/18
+MN,attorney general,D,Lori,Swanson,11/6/18
+MO,attorney general,R,Josh,Hawley,11/3/20
+MS,attorney general,D,Jim,Hood,11/5/19
+MT,attorney general,R,Tim,Fox,11/3/20
+NC,attorney general,D,Josh,Stein,11/3/20
+ND,attorney general,R,Wayne,Stenehjem,11/6/18
+NE,attorney general,R,Doug,Peterson,11/6/18
+NM,attorney general,D,Hector,Balderas,11/6/18
+NV,attorney general,R,Adam,Laxalt,11/6/18
+NY,attorney general,D,Eric,Schneiderman,11/6/18
+OH,attorney general,R,Mike,DeWine,11/6/18
+OK,attorney general,U,Mike,Hunter,11/6/18
+OR,attorney general,D,Ellen,Rosenblum,11/3/20
+PA,attorney general,D,Josh,Shapiro,11/3/20
+RI,attorney general,D,Peter,Kilmartin,11/6/18
+SC,attorney general,R,Alan,Wilson,11/6/18
+SD,attorney general,R,Marty,Jackley,11/6/18
+TX,attorney general,R,Ken,Paxton,11/6/18
+UT,attorney general,R,Sean,Reyes,11/3/20
+VA,attorney general,D,Mark,Herring,11/2/21
+VT,attorney general,D,T.J.,Donovan,11/6/18
+WA,attorney general,D,Bob,Ferguson,11/3/20
+WI,attorney general,R,Brad,Schimel,11/6/18
+WV,attorney general,R,Patrick,Morrisey,11/3/20
+MA,auditor of the commonwealth,D,Suzanne,Bump,11/6/18
+AK,governor,I,Bill,Walker,11/6/18
+AL,governor,R,Kay,Ivey,11/6/18
+AR,governor,R,Asa,Hutchinson,11/6/18
+AZ,governor,R,Doug,Ducey,11/6/18
+CA,governor,D,Jerry,Brown,11/6/18
+CO,governor,D,John,Hickenlooper,11/6/18
+CT,governor,D,Dan,Malloy,11/6/18
+DE,governor,D,John,Carney,11/3/20
+FL,governor,R,Rick,Scott,11/6/18
+GA,governor,R,Nathan,Deal,11/6/18
+HI,governor,D,David,Ige,11/6/18
+IA,governor,R,Kim,Reynolds,11/6/18
+ID,governor,R,C.L. “Butch”,Otter,11/6/18
+IL,governor,R,Bruce,Rauner,11/6/18
+IN,governor,R,Eric,Holcomb,11/3/20
+KS,governor,R,Jeff,Colyer,11/6/18
+KY,governor,R,Matt,Bevin,11/5/19
+LA,governor,D,John,Bel Edwards,10/12/19
+MA,governor,R,Charlie,Baker,11/6/18
+MD,governor,R,Larry,Hogan,11/6/18
+ME,governor,R,Paul,LePage,11/6/18
+MI,governor,R,Rick,Snyder,11/6/18
+MN,governor,D,Mark,Dayton,11/6/18
+MO,governor,R,Eric,Greitens,11/3/20
+MS,governor,R,Phil,Bryant,11/5/19
+MT,governor,D,Steve,Bullock,11/3/20
+NC,governor,D,Roy,Cooper,11/3/20
+ND,governor,R,Doug,Burgum,11/3/20
+NE,governor,R,Pete,Ricketts,11/6/18
+NH,governor,R,Chris,Sununu,11/6/18
+NJ,governor,D,Phil,Murphy,11/2/21
+NM,governor,R,Susana,Martinez,11/6/18
+NV,governor,R,Brian,Sandoval,11/6/18
+NY,governor,D,Andrew,Cuomo,11/6/18
+OH,governor,R,John,Kasich,11/6/18
+OK,governor,R,Mary,Fallin,11/6/18
+OR,governor,D,Kate,Brown,11/6/18
+PA,governor,D,Tom,Wolf,11/6/18
+RI,governor,D,Gina,Raimondo,11/6/18
+SC,governor,R,Henry,McMaster,11/6/18
+SD,governor,R,Dennis,Daugaard,11/6/18
+TN,governor,R,Bill,Haslam,11/6/18
+TX,governor,R,Greg,Abbott,11/6/18
+UT,governor,R,Gary R.,Herbert,11/3/20
+VA,governor,D,Ralph,Northam,11/2/21
+VT,governor,R,Phil,Scott,11/6/18
+WA,governor,D,Jay,Inslee,11/3/20
+WI,governor,R,Scott,Walker,11/6/18
+WV,governor,R,Jim,Justice,11/3/20
+WY,governor,R,Matthew,Mead,11/6/18
+VA,lietuenant governor,D,Ralph,Northam,11/2/21
+AK,lieutenant governor,D,Byron,Mallott,11/6/18
+AL,lieutenant governor,,VACANT,,11/6/18
+AR,lieutenant governor,R,Tim,Griffin,11/6/18
+CA,lieutenant governor,D,Gavin,Newsom,11/6/18
+CO,lieutenant governor,D,Donna,Lynne,11/6/18
+CT,lieutenant governor,D,Nancy,Wyman,11/6/18
+DE,lieutenant governor,D,Bethany,Hall-Long,11/3/20
+FL,lieutenant governor,R,Carlos,Lopez-Cantera,11/6/18
+GA,lieutenant governor,R,Casey,Cagle,11/6/18
+HI,lieutenant governor,D,Shan,Tsutsui,11/6/18
+IA,lieutenant governor,R,Adam,Gregg,11/6/18
+ID,lieutenant governor,R,Brad,Little,11/6/18
+IL,lieutenant governor,R,Evelyn,Sanguinetti,11/6/18
+IN,lieutenant governor,R,Suzanne,Crouch,11/3/20
+KS,lieutenant governor,R,Jeff,Colyer,11/6/18
+KY,lieutenant governor,R,Jenean,Hampton,11/5/19
+LA,lieutenant governor,R,Billy,Nungesser,10/12/19
+MA,lieutenant governor,R,Karyn,Polito,11/6/18
+MD,lieutenant governor,R,Boyd,Rutherford,11/6/18
+MI,lieutenant governor,R,Brian,Calley,11/6/18
+MN,lieutenant governor,R,Michelle,Fischbach,11/6/18
+MO,lieutenant governor,R,Mike,Parson,11/3/20
+MS,lieutenant governor,R,Tate,Reeves,11/5/19
+MT,lieutenant governor,D,Mike,Cooney,11/3/20
+NC,lieutenant governor,R,Dan,Forest,11/3/20
+ND,lieutenant governor,R,Brent,Sanford,11/3/20
+NE,lieutenant governor,R,Mike,Foley,11/6/18
+NJ,lieutenant governor,R,Kim,Guadagno,11/2/21
+NM,lieutenant governor,R,John,Sanchez,11/6/18
+NV,lieutenant governor,R,Mark,Hutchison,11/6/18
+NY,lieutenant governor,D,Kathy,Hochul,11/6/18
+OH,lieutenant governor,R,Mary,Taylor,11/6/18
+OK,lieutenant governor,R,Todd,Lamb,11/6/18
+PA,lieutenant governor,D,Michael,Stack,11/6/18
+RI,lieutenant governor,D,Daniel,McKee,11/6/18
+SC,lieutenant governor,R,Kevin,Bryant,11/6/18
+SD,lieutenant governor,R,Matt,Michels,11/6/18
+TX,lieutenant governor,R,Dan,Patrick,11/6/18
+UT,lieutenant governor,R,Spencer,Cox,11/3/20
+VT,lieutenant governor,D,David,Zuckerman,11/6/18
+WA,lieutenant governor,D,Cyrus,Habib,11/3/20
+WI,lieutenant governor,R,Rebecca,Kleefisch,11/6/18
+AL,secretary of state,R,John,Merrill,11/6/18
+AR,secretary of state,R,Mark,Martin,11/6/18
+AZ,secretary of state,R,Michele,Reagan,11/6/18
+CA,secretary of state,D,Alex,Padilla,11/6/18
+CO,secretary of state,R,Wayne,Williams,11/6/18
+CT,secretary of state,D,Denise,Merrill,11/6/18
+GA,secretary of state,R,Brian,Kemp,11/6/18
+IA,secretary of state,R,Paul,Pate,11/6/18
+ID,secretary of state,R,Lawerence,Denney,11/6/18
+IL,secretary of state,D,Jesse,White,11/6/18
+IN,secretary of state,R,Connie,Lawson,11/6/18
+KS,secretary of state,R,Kris,Kobach,11/6/18
+KY,secretary of state,D,Alison,Lundergan Grimes,11/5/19
+LA,secretary of state,R,Tom,Schedler,10/12/19
+MI,secretary of state,R,Ruth,Johnson,11/6/18
+MN,secretary of state,D,Steve,Simon,11/6/18
+MO,secretary of state,R,John (Jay),Ashcroft,11/3/20
+MS,secretary of state,R,Delbert,Hosemann,11/5/19
+MT,secretary of state,R,Corey,Stapleton,11/3/20
+NC,secretary of state,D,Elaine,Marshall,11/3/20
+ND,secretary of state,R,Al,Jaeger,11/6/18
+NE,secretary of state,R,John,Gale,11/6/18
+NM,secretary of state,D,Maggie,Toulouse Oliver,11/6/18
+NV,secretary of state,R,Barbara,Cegavske,11/6/18
+OH,secretary of state,R,Jon,Husted,11/6/18
+OR,secretary of state,R,Dennis,Richardson,11/3/20
+RI,secretary of state,D,Nellie,Gorbea,11/6/18
+SC,secretary of state,R,Mark,Hammond,11/6/18
+SD,secretary of state,R,Shantel,Krebs,11/6/18
+VT,secretary of state,D,Jim,Condos,11/6/18
+WA,secretary of state,R,Kim,Wyman,11/3/20
+WI,secretary of state,D,Doug,La Follette,11/6/18
+WV,secretary of state,R,Mac,Warner,11/3/20
+WY,secretary of state,R,Ed,Murray,11/6/18
+MA,secretary of the commonwealth,D,William Francis,Galvin,11/6/18
+AL,state auditor,R,Jim,Zeigler,11/6/18
+AR,state auditor,R,Andrea,Lea,11/6/18
+IA,state auditor,R,Mary,Mosiman,11/6/18
+IN,state auditor,R,Suzanne,Crouch,11/6/18
+KY,state auditor,R,Mike,Harmon,11/5/19
+MN,state auditor,D,Rebecca,Otto,11/6/18
+MO,state auditor,D,Nicole,Galloway,11/6/18
+MS,state auditor,R,Stacey,Pickering,11/5/19
+MT,state auditor,R,Matt,Rosendale,11/3/20
+NC,state auditor,D,Beth,Wood,11/3/20
+ND,state auditor,R,Josh,Gallion,11/3/20
+NM,state auditor,D,Timothy,Keller,11/6/18
+OH,state auditor,R,Dave,Yost,11/6/18
+SD,state auditor,R,Steve,Barnett,11/6/18
+UT,state auditor,R,John,Dougall,11/3/20
+VT,state auditor,D,Doug,Hoffer,11/6/18
+WA,state auditor,D,Pat,McCarthy,11/3/20
+WV,state auditor,R,John JB,McCuskey,11/3/20
+WY,state auditor,R,Cynthia,Cloud,11/6/18
+OK,state auditor and inspector,R,Gary,Jones,11/6/18
+AL,treasurer,R,Young,Boozer,11/6/18
+AR,treasurer,R,Dennis,Milligan,11/6/18
+AZ,treasurer,R,Jeff,DeWit,11/6/18
+CA,treasurer,D,John,Chiang,11/6/18
+CO,treasurer,R,Walker,Stapleton,11/6/18
+CT,treasurer,D,Denise,Nappier,11/6/18
+DE,treasurer,R,Kenneth,Simpler,11/6/18
+IA,treasurer,D,Michael,Fitzgerald,11/6/18
+ID,treasurer,R,Ron,Crane,11/6/18
+IL,treasurer,D,Michael,Frerichs,11/6/18
+IN,treasurer,R,Kelly,Mitchell,11/6/18
+KS,treasurer,R,Ron,Estes,11/6/18
+KY,treasurer,R,Allison,Ball,11/5/19
+LA,treasurer,R,John,Neely Kennedy,10/12/19
+MA,treasurer,D,Deborah,Goldberg,11/6/18
+MO,treasurer,R,Eric,Schmitt,11/3/20
+MS,treasurer,R,Lynn,Fitch,11/5/19
+NC,treasurer,R,Dale,Folwell,11/3/20
+ND,treasurer,R,Kelly,Schmidt,11/3/20
+NE,treasurer,R,Don,Stenberg,11/6/18
+NM,treasurer,D,Tim,Eichenberg,11/6/18
+NV,treasurer,R,Dan,Schwartz,11/6/18
+OH,treasurer,R,Josh,Mandel,11/6/18
+OK,treasurer,R,Ken,Miller,11/6/18
+OR,treasurer,D,Tobias,Read,11/3/20
+PA,treasurer,D,Joe,Torsella,11/3/20
+SC,treasurer,R,Curtis,Loftis Jr.,11/6/18
+SD,treasurer,R,Rich,Sattgast,11/6/18
+UT,treasurer,R,David,Damschen,11/3/20
+VT,treasurer,D,Beth,Pearce,11/6/18
+WA,treasurer,R,Duane,Davidson,11/3/20
+WI,treasurer,R,Matt,Adamczyk,11/6/18
+WV,treasurer,D,John,Perdue,11/3/20
+WY,treasurer,R,Mark,Gordon,11/6/18
