@@ -1,0 +1,436 @@
+﻿unique_id,geoid,state_code,district,party,first_name,last_name,speaker,majority_leader,minority_leader,majority_whip,minority_whip,next_election
+AL1,01001,AL,1,R,Bradley,Byrne,0,0,0,0,0,11/6/18
+AL2,01002,AL,2,R,Martha,Roby,0,0,0,0,0,11/6/18
+AL3,01003,AL,3,R,Mike,Rogers,0,0,0,0,0,11/6/18
+AL4,01004,AL,4,R,Robert,Aderholt,0,0,0,0,0,11/6/18
+AL5,01005,AL,5,R,Mo,Brooks,0,0,0,0,0,11/6/18
+AL6,01006,AL,6,R,Gary,Palmer,0,0,0,0,0,11/6/18
+AL7,01007,AL,7,D,Terri A.,Sewell,0,0,0,0,0,11/6/18
+AKAL,02001,AK,AL,R,Don,Young,0,0,0,0,0,11/6/18
+AZ1,04001,AZ,1,D,Tom,O'Halleran,0,0,0,0,0,11/6/18
+AZ2,04002,AZ,2,R,Martha,McSally,0,0,0,0,0,11/6/18
+AZ3,04003,AZ,3,D,Raul,Grijalva,0,0,0,0,0,11/6/18
+AZ4,04004,AZ,4,R,Paul A.,Gosar,0,0,0,0,0,11/6/18
+AZ5,04005,AZ,5,R,Andy,Biggs,0,0,0,0,0,11/6/18
+AZ6,04006,AZ,6,R,David,Schweikert,0,0,0,0,0,11/6/18
+AZ7,04007,AZ,7,D,Ruben,Gallego,0,0,0,0,0,11/6/18
+AZ8,04008,AZ,8,,VACANT,,0,0,0,0,0,4/24/18
+AZ9,04009,AZ,9,D,Kyrsten,Sinema,0,0,0,0,0,11/6/18
+AR1,05001,AR,1,R,Rick,Crawford,0,0,0,0,0,11/6/18
+AR2,05002,AR,2,R,French,Hill,0,0,0,0,0,11/6/18
+AR3,05003,AR,3,R,Steve,Womack,0,0,0,0,0,11/6/18
+AR4,05004,AR,4,R,Bruce,Westerman,0,0,0,0,0,11/6/18
+CA1,06001,CA,1,R,Doug,LaMalfa,0,0,0,0,0,11/6/18
+CA2,06002,CA,2,D,Jared,Huffman,0,0,0,0,0,11/6/18
+CA3,06003,CA,3,D,John,Garamendi,0,0,0,0,0,11/6/18
+CA4,06004,CA,4,R,Tom,McClintock,0,0,0,0,0,11/6/18
+CA5,06005,CA,5,D,Mike,Thompson,0,0,0,0,0,11/6/18
+CA6,06006,CA,6,D,Doris O.,Matsui,0,0,0,0,0,11/6/18
+CA7,06007,CA,7,D,Ami,Bera,0,0,0,0,0,11/6/18
+CA8,06008,CA,8,R,Paul,Cook,0,0,0,0,0,11/6/18
+CA9,06009,CA,9,D,Jerry,McNerney,0,0,0,0,0,11/6/18
+CA10,06010,CA,10,R,Jeff,Denham,0,0,0,0,0,11/6/18
+CA11,06011,CA,11,D,Mark,DeSaulnier,0,0,0,0,0,11/6/18
+CA12,06012,CA,12,D,Nancy,Pelosi,0,0,1,0,0,11/6/18
+CA13,06013,CA,13,D,Barbara,Lee,0,0,0,0,0,11/6/18
+CA14,06014,CA,14,D,Jackie,Speier,0,0,0,0,0,11/6/18
+CA15,06015,CA,15,D,Eric,Swalwell,0,0,0,0,0,11/6/18
+CA16,06016,CA,16,D,Jim,Costa,0,0,0,0,0,11/6/18
+CA17,06017,CA,17,D,Ro,Khanna,0,0,0,0,0,11/6/18
+CA18,06018,CA,18,D,Anna G.,Eshoo,0,0,0,0,0,11/6/18
+CA19,06019,CA,19,D,Zoe,Lofgren,0,0,0,0,0,11/6/18
+CA20,06020,CA,20,D,Jimmy,Panetta,0,0,0,0,0,11/6/18
+CA21,06021,CA,21,R,David,Valadao,0,0,0,0,0,11/6/18
+CA22,06022,CA,22,R,Devin,Nunes,0,0,0,0,0,11/6/18
+CA23,06023,CA,23,R,Kevin,McCarthy,0,1,0,0,0,11/6/18
+CA24,06024,CA,24,D,Salud,Carbajal,0,0,0,0,0,11/6/18
+CA25,06025,CA,25,R,Steve,Knight,0,0,0,0,0,11/6/18
+CA26,06026,CA,26,D,Julia,Brownley,0,0,0,0,0,11/6/18
+CA27,06027,CA,27,D,Judy,Chu,0,0,0,0,0,11/6/18
+CA28,06028,CA,28,D,Adam,Schiff,0,0,0,0,0,11/6/18
+CA29,06029,CA,29,D,Tony,C√°rdenas,0,0,0,0,0,11/6/18
+CA30,06030,CA,30,D,Brad,Sherman,0,0,0,0,0,11/6/18
+CA31,06031,CA,31,D,Pete,Aguilar,0,0,0,0,0,11/6/18
+CA32,06032,CA,32,D,Grace,Napolitano,0,0,0,0,0,11/6/18
+CA33,06033,CA,33,D,Ted,Lieu,0,0,0,0,0,11/6/18
+CA34,06034,CA,34,D,Jimmy,Gomez,0,0,0,0,0,11/6/18
+CA35,06035,CA,35,D,Norma,Torres,0,0,0,0,0,11/6/18
+CA36,06036,CA,36,D,Raul,Ruiz,0,0,0,0,0,11/6/18
+CA37,06037,CA,37,D,Karen,Bass,0,0,0,0,0,11/6/18
+CA38,06038,CA,38,D,Linda,S√°nchez,0,0,0,0,0,11/6/18
+CA39,06039,CA,39,R,Ed,Royce,0,0,0,0,0,11/6/18
+CA40,06040,CA,40,D,Lucille,Roybal-Allard,0,0,0,0,0,11/6/18
+CA41,06041,CA,41,D,Mark,Takano,0,0,0,0,0,11/6/18
+CA42,06042,CA,42,R,Ken,Calvert,0,0,0,0,0,11/6/18
+CA43,06043,CA,43,D,Maxine,Waters,0,0,0,0,0,11/6/18
+CA44,06044,CA,44,D,Nanette,Barrag√°n,0,0,0,0,0,11/6/18
+CA45,06045,CA,45,R,Mimi,Walters,0,0,0,0,0,11/6/18
+CA46,06046,CA,46,D,J. Luis,Correa,0,0,0,0,0,11/6/18
+CA47,06047,CA,47,D,Alan,Lowenthal,0,0,0,0,0,11/6/18
+CA48,06048,CA,48,R,Dana,Rohrabacher,0,0,0,0,0,11/6/18
+CA49,06049,CA,49,R,Darrell,Issa,0,0,0,0,0,11/6/18
+CA50,06050,CA,50,R,Duncan D.,Hunter,0,0,0,0,0,11/6/18
+CA51,06051,CA,51,D,Juan,Vargas,0,0,0,0,0,11/6/18
+CA52,06052,CA,52,D,Scott,Peters,0,0,0,0,0,11/6/18
+CA53,06053,CA,53,D,Susan,Davis,0,0,0,0,0,11/6/18
+CO1,08001,CO,1,D,Diana,DeGette,0,0,0,0,0,11/6/18
+CO2,08002,CO,2,D,Jared,Polis,0,0,0,0,0,11/6/18
+CO3,08003,CO,3,R,Scott,Tipton,0,0,0,0,0,11/6/18
+CO4,08004,CO,4,R,Ken,Buck,0,0,0,0,0,11/6/18
+CO5,08005,CO,5,R,Doug,Lamborn,0,0,0,0,0,11/6/18
+CO6,08006,CO,6,R,Mike,Coffman,0,0,0,0,0,11/6/18
+CO7,08007,CO,7,D,Ed,Perlmutter,0,0,0,0,0,11/6/18
+CT1,09001,CT,1,D,John B.,Larson,0,0,0,0,0,11/6/18
+CT2,09002,CT,2,D,Joe,Courtney,0,0,0,0,0,11/6/18
+CT3,09003,CT,3,D,Rosa L.,DeLauro,0,0,0,0,0,11/6/18
+CT4,09004,CT,4,D,Jim,Himes,0,0,0,0,0,11/6/18
+CT5,09005,CT,5,D,Elizabeth,Esty,0,0,0,0,0,11/6/18
+DEAL,10001,DE,AL,D,Lisa,Blunt Rochester,0,0,0,0,0,11/6/18
+FL1,12001,FL,1,R,Matt,Gaetz,0,0,0,0,0,11/6/18
+FL2,12002,FL,2,R,Neal,Dunn,0,0,0,0,0,11/6/18
+FL3,12003,FL,3,R,Ted,Yoho,0,0,0,0,0,11/6/18
+FL4,12004,FL,4,R,John,Rutherford,0,0,0,0,0,11/6/18
+FL5,12005,FL,5,D,Al,Lawson,0,0,0,0,0,11/6/18
+FL6,12006,FL,6,R,Ron,DeSantis,0,0,0,0,0,11/6/18
+FL7,12007,FL,7,D,Stephanie,Murphy,0,0,0,0,0,11/6/18
+FL8,12008,FL,8,R,Bill,Posey,0,0,0,0,0,11/6/18
+FL9,12009,FL,9,D,Darren,Soto,0,0,0,0,0,11/6/18
+FL10,12010,FL,10,D,Val,Demings,0,0,0,0,0,11/6/18
+FL11,12011,FL,11,R,Daniel,Webster,0,0,0,0,0,11/6/18
+FL12,12012,FL,12,R,Gus M.,Bilirakis,0,0,0,0,0,11/6/18
+FL13,12013,FL,13,D,Charlie,Crist,0,0,0,0,0,11/6/18
+FL14,12014,FL,14,D,Kathy,Castor,0,0,0,0,0,11/6/18
+FL15,12015,FL,15,R,Dennis,Ross,0,0,0,0,0,11/6/18
+FL16,12016,FL,16,R,Vern,Buchanan,0,0,0,0,0,11/6/18
+FL17,12017,FL,17,R,Tom,Rooney,0,0,0,0,0,11/6/18
+FL18,12018,FL,18,R,Brian,Mast,0,0,0,0,0,11/6/18
+FL19,12019,FL,19,R,Francis,Rooney,0,0,0,0,0,11/6/18
+FL20,12020,FL,20,D,Alcee L.,Hastings,0,0,0,0,0,11/6/18
+FL21,12021,FL,21,D,Lois,Frankel,0,0,0,0,0,11/6/18
+FL22,12022,FL,22,D,Ted,Deutch,0,0,0,0,0,11/6/18
+FL23,12023,FL,23,D,Debbie,Wasserman Schultz,0,0,0,0,0,11/6/18
+FL24,12024,FL,24,D,Frederica,Wilson,0,0,0,0,0,11/6/18
+FL25,12025,FL,25,R,Mario,Diaz-Balart,0,0,0,0,0,11/6/18
+FL26,12026,FL,26,R,Carlos,Curbelo,0,0,0,0,0,11/6/18
+FL27,12027,FL,27,R,Ileana,Ros-Lehtinen,0,0,0,0,0,11/6/18
+GA1,13001,GA,1,R,Buddy,Carter,0,0,0,0,0,11/6/18
+GA2,13002,GA,2,D,Sanford D.,Bishop Jr.,0,0,0,0,0,11/6/18
+GA3,13003,GA,3,R,A. Drew,Ferguson,0,0,0,0,0,11/6/18
+GA4,13004,GA,4,D,"Henry C. ""Hank"" Jr.",Johnson,0,0,0,0,0,11/6/18
+GA5,13005,GA,5,D,John,Lewis,0,0,0,0,0,11/6/18
+GA6,13006,GA,6,R,Karen C.,Handel,0,0,0,0,0,11/6/18
+GA7,13007,GA,7,R,Robert,Woodall,0,0,0,0,0,11/6/18
+GA8,13008,GA,8,R,Austin,Scott,0,0,0,0,0,11/6/18
+GA9,13009,GA,9,R,Doug,Collins,0,0,0,0,0,11/6/18
+GA10,13010,GA,10,R,Jody,Hice,0,0,0,0,0,11/6/18
+GA11,13011,GA,11,R,Barry,Loudermilk,0,0,0,0,0,11/6/18
+GA12,13012,GA,12,R,Rick,Allen,0,0,0,0,0,11/6/18
+GA13,13013,GA,13,D,David,Scott,0,0,0,0,0,11/6/18
+GA14,13014,GA,14,R,Tom,Graves,0,0,0,0,0,11/6/18
+HI1,15001,HI,1,D,Colleen,Hanabusa,0,0,0,0,0,11/6/18
+HI2,15002,HI,2,D,Tulsi,Gabbard,0,0,0,0,0,11/6/18
+ID1,16001,ID,1,R,Raul R.,Labrador,0,0,0,0,0,11/6/18
+ID2,16002,ID,2,R,Mike,Simpson,0,0,0,0,0,11/6/18
+IL1,17001,IL,1,D,Bobby L.,Rush,0,0,0,0,0,11/6/18
+IL2,17002,IL,2,D,Robin,Kelly,0,0,0,0,0,11/6/18
+IL3,17003,IL,3,D,Daniel,Lipinski,0,0,0,0,0,11/6/18
+IL4,17004,IL,4,D,Luis,Gutierrez,0,0,0,0,0,11/6/18
+IL5,17005,IL,5,D,Mike,Quigley,0,0,0,0,0,11/6/18
+IL6,17006,IL,6,R,Peter J.,Roskam,0,0,0,0,0,11/6/18
+IL7,17007,IL,7,D,Danny K.,Davis,0,0,0,0,0,11/6/18
+IL8,17008,IL,8,D,Raja,Krishnamoorthi,0,0,0,0,0,11/6/18
+IL9,17009,IL,9,D,Jan,Schakowsky,0,0,0,0,0,11/6/18
+IL10,17010,IL,10,D,Bradley,Schneider,0,0,0,0,0,11/6/18
+IL11,17011,IL,11,D,Bill,Foster,0,0,0,0,0,11/6/18
+IL12,17012,IL,12,R,Mike,Bost,0,0,0,0,0,11/6/18
+IL13,17013,IL,13,R,Rodney,Davis,0,0,0,0,0,11/6/18
+IL14,17014,IL,14,R,Randy,Hultgren,0,0,0,0,0,11/6/18
+IL15,17015,IL,15,R,John,Shimkus,0,0,0,0,0,11/6/18
+IL16,17016,IL,16,R,Adam,Kinzinger,0,0,0,0,0,11/6/18
+IL17,17017,IL,17,D,Cheri,Bustos,0,0,0,0,0,11/6/18
+IL18,17018,IL,18,R,Darin,LaHood,0,0,0,0,0,11/6/18
+IN1,18001,IN,1,D,Peter,Visclosky,0,0,0,0,0,11/6/18
+IN2,18002,IN,2,R,Jackie,Walorski,0,0,0,0,0,11/6/18
+IN3,18003,IN,3,R,Jim,Banks,0,0,0,0,0,11/6/18
+IN4,18004,IN,4,R,Todd,Rokita,0,0,0,0,0,11/6/18
+IN5,18005,IN,5,R,Susan W.,Brooks,0,0,0,0,0,11/6/18
+IN6,18006,IN,6,R,Luke,Messer,0,0,0,0,0,11/6/18
+IN7,18007,IN,7,D,Andr√©,Carson,0,0,0,0,0,11/6/18
+IN8,18008,IN,8,R,Larry,Bucshon,0,0,0,0,0,11/6/18
+IN9,18009,IN,9,R,Trey,Hollingsworth,0,0,0,0,0,11/6/18
+IA1,19001,IA,1,R,Rod,Blum,0,0,0,0,0,11/6/18
+IA2,19002,IA,2,D,David,Loebsack,0,0,0,0,0,11/6/18
+IA3,19003,IA,3,R,David,Young,0,0,0,0,0,11/6/18
+IA4,19004,IA,4,R,Steve,King,0,0,0,0,0,11/6/18
+KS1,20001,KS,1,R,Roger,Marshall,0,0,0,0,0,11/6/18
+KS2,20002,KS,2,R,Lynn,Jenkins,0,0,0,0,0,11/6/18
+KS3,20003,KS,3,R,Kevin,Yoder,0,0,0,0,0,11/6/18
+KS4,20004,KS,4,R,Ron,Estes,0,0,0,0,0,11/6/18
+KY1,21001,KY,1,R,James,Comer,0,0,0,0,0,11/6/18
+KY2,21002,KY,2,R,S. Brett,Guthrie,0,0,0,0,0,11/6/18
+KY3,21003,KY,3,D,John A.,Yarmuth,0,0,0,0,0,11/6/18
+KY4,21004,KY,4,R,Thomas,Massie,0,0,0,0,0,11/6/18
+KY5,21005,KY,5,R,Harold,Rogers,0,0,0,0,0,11/6/18
+KY6,21006,KY,6,R,Andy,Barr,0,0,0,0,0,11/6/18
+LA1,22001,LA,1,R,Steve,Scalise,0,0,0,1,0,11/6/18
+LA2,22002,LA,2,D,Cedric,Richmond,0,0,0,0,0,11/6/18
+LA3,22003,LA,3,R,Clay,Higgins,0,0,0,0,0,11/6/18
+LA4,22004,LA,4,R,Mike,Johnson,0,0,0,0,0,11/6/18
+LA5,22005,LA,5,R,Ralph,Abraham,0,0,0,0,0,11/6/18
+LA6,22006,LA,6,R,Garret,Graves,0,0,0,0,0,11/6/18
+ME1,23001,ME,1,D,Chellie,Pingree,0,0,0,0,0,11/6/18
+ME2,23002,ME,2,R,Bruce,Poliquin,0,0,0,0,0,11/6/18
+MD1,24001,MD,1,R,Andy,Harris,0,0,0,0,0,11/6/18
+MD2,24002,MD,2,D,C. A. Dutch,Ruppersberger,0,0,0,0,0,11/6/18
+MD3,24003,MD,3,D,John P.,Sarbanes,0,0,0,0,0,11/6/18
+MD4,24004,MD,4,D,Anthony,Brown,0,0,0,0,0,11/6/18
+MD5,24005,MD,5,D,Steny H.,Hoyer,0,0,0,0,1,11/6/18
+MD6,24006,MD,6,D,John,Delaney,0,0,0,0,0,11/6/18
+MD7,24007,MD,7,D,Elijah,Cummings,0,0,0,0,0,11/6/18
+MD8,24008,MD,8,D,Jamie,Raskin,0,0,0,0,0,11/6/18
+MA1,25001,MA,1,D,Richard E.,Neal,0,0,0,0,0,11/6/18
+MA2,25002,MA,2,D,James,McGovern,0,0,0,0,0,11/6/18
+MA3,25003,MA,3,D,Niki,Tsongas,0,0,0,0,0,11/6/18
+MA4,25004,MA,4,D,Joseph P.,Kennedy III,0,0,0,0,0,11/6/18
+MA5,25005,MA,5,D,Katherine,Clark,0,0,0,0,0,11/6/18
+MA6,25006,MA,6,D,Seth,Moulton,0,0,0,0,0,11/6/18
+MA7,25007,MA,7,D,Michael E.,Capuano,0,0,0,0,0,11/6/18
+MA8,25008,MA,8,D,Stephen F.,Lynch,0,0,0,0,0,11/6/18
+MA9,25009,MA,9,D,William,Keating,0,0,0,0,0,11/6/18
+MI1,26001,MI,1,R,Jack,Bergman,0,0,0,0,0,11/6/18
+MI2,26002,MI,2,R,Bill,Huizenga,0,0,0,0,0,11/6/18
+MI3,26003,MI,3,R,Justin,Amash,0,0,0,0,0,11/6/18
+MI4,26004,MI,4,R,John,Moolenaar,0,0,0,0,0,11/6/18
+MI5,26005,MI,5,D,Daniel,Kildee,0,0,0,0,0,11/6/18
+MI6,26006,MI,6,R,Fred,Upton,0,0,0,0,0,11/6/18
+MI7,26007,MI,7,R,Tim,Walberg,0,0,0,0,0,11/6/18
+MI8,26008,MI,8,R,Mike,Bishop,0,0,0,0,0,11/6/18
+MI9,26009,MI,9,D,Sander,Levin,0,0,0,0,0,11/6/18
+MI10,26010,MI,10,R,Paul,Mitchell,0,0,0,0,0,11/6/18
+MI11,26011,MI,11,R,Dave,Trott,0,0,0,0,0,11/6/18
+MI12,26012,MI,12,D,Debbie,Dingell,0,0,0,0,0,11/6/18
+MI13,26013,MI,13,,VACANT,,0,0,0,0,0,11/6/18
+MI14,26014,MI,14,D,Brenda,Lawrence,0,0,0,0,0,11/6/18
+MN1,27001,MN,1,D,Timothy J.,Walz,0,0,0,0,0,11/6/18
+MN2,27002,MN,2,R,Jason,Lewis,0,0,0,0,0,11/6/18
+MN3,27003,MN,3,R,Erik,Paulsen,0,0,0,0,0,11/6/18
+MN4,27004,MN,4,D,Betty,McCollum,0,0,0,0,0,11/6/18
+MN5,27005,MN,5,D,Keith,Ellison,0,0,0,0,0,11/6/18
+MN6,27006,MN,6,R,Tom,Emmer,0,0,0,0,0,11/6/18
+MN7,27007,MN,7,D,Collin C.,Peterson,0,0,0,0,0,11/6/18
+MN8,27008,MN,8,D,Rick,Nolan,0,0,0,0,0,11/6/18
+MS1,28001,MS,1,R,Trent,Kelly,0,0,0,0,0,11/6/18
+MS2,28002,MS,2,D,Bennie G.,Thompson,0,0,0,0,0,11/6/18
+MS3,28003,MS,3,R,Gregg,Harper,0,0,0,0,0,11/6/18
+MS4,28004,MS,4,R,Steven,Palazzo,0,0,0,0,0,11/6/18
+MO1,29001,MO,1,D,"William ""Lacy""",Clay Jr.,0,0,0,0,0,11/6/18
+MO2,29002,MO,2,R,Ann,Wagner,0,0,0,0,0,11/6/18
+MO3,29003,MO,3,R,Blaine,Luetkemeyer,0,0,0,0,0,11/6/18
+MO4,29004,MO,4,R,Vicky,Hartzler,0,0,0,0,0,11/6/18
+MO5,29005,MO,5,D,Emanuel,Cleaver,0,0,0,0,0,11/6/18
+MO6,29006,MO,6,R,Sam,Graves,0,0,0,0,0,11/6/18
+MO7,29007,MO,7,R,Billy,Long,0,0,0,0,0,11/6/18
+MO8,29008,MO,8,R,Jason,Smith,0,0,0,0,0,11/6/18
+MTAL,30001,MT,AL,R,Greg,Gianforte,0,0,0,0,0,11/6/18
+NE1,31001,NE,1,R,Jeff,Fortenberry,0,0,0,0,0,11/6/18
+NE2,31002,NE,2,R,Don,Bacon,0,0,0,0,0,11/6/18
+NE3,31003,NE,3,R,Adrian,Smith,0,0,0,0,0,11/6/18
+NV1,32001,NV,1,D,Dina,Titus,0,0,0,0,0,11/6/18
+NV2,32002,NV,2,R,Mark,Amodei,0,0,0,0,0,11/6/18
+NV3,32003,NV,3,D,Jacky,Rosen,0,0,0,0,0,11/6/18
+NV4,32004,NV,4,D,Ruben J.,Kihuen,0,0,0,0,0,11/6/18
+NH1,33001,NH,1,D,Carol,Shea-Porter,0,0,0,0,0,11/6/18
+NH2,33002,NH,2,D,Ann,Kuster,0,0,0,0,0,11/6/18
+NJ1,34001,NJ,1,D,Donald,Norcross,0,0,0,0,0,11/6/18
+NJ2,34002,NJ,2,R,Frank,LoBiondo,0,0,0,0,0,11/6/18
+NJ3,34003,NJ,3,R,Tom,MacArthur,0,0,0,0,0,11/6/18
+NJ4,34004,NJ,4,R,Chris,Smith,0,0,0,0,0,11/6/18
+NJ5,34005,NJ,5,D,Josh,Gottheimer,0,0,0,0,0,11/6/18
+NJ6,34006,NJ,6,D,Frank,Pallone Jr.,0,0,0,0,0,11/6/18
+NJ7,34007,NJ,7,R,Leonard,Lance,0,0,0,0,0,11/6/18
+NJ8,34008,NJ,8,D,Albio,Sires,0,0,0,0,0,11/6/18
+NJ9,34009,NJ,9,D,Bill,Pascrell Jr.,0,0,0,0,0,11/6/18
+NJ10,34010,NJ,10,D,Donald,Payne Jr.,0,0,0,0,0,11/6/18
+NJ11,34011,NJ,11,R,Rodney,Frelinghuysen,0,0,0,0,0,11/6/18
+NJ12,34012,NJ,12,D,Bonnie,Watson Coleman,0,0,0,0,0,11/6/18
+NM1,35001,NM,1,D,Michelle,Lujan Grisham,0,0,0,0,0,11/6/18
+NM2,35002,NM,2,R,Steve,Pearce,0,0,0,0,0,11/6/18
+NM3,35003,NM,3,D,Ben R.,Lujan,0,0,0,0,0,11/6/18
+NY1,36001,NY,1,R,Lee,Zeldin,0,0,0,0,0,11/6/18
+NY2,36002,NY,2,R,Pete,King,0,0,0,0,0,11/6/18
+NY3,36003,NY,3,D,Thomas,Suozzi,0,0,0,0,0,11/6/18
+NY4,36004,NY,4,D,Kathleen,Rice,0,0,0,0,0,11/6/18
+NY5,36005,NY,5,D,Gregory W.,Meeks,0,0,0,0,0,11/6/18
+NY6,36006,NY,6,D,Grace,Meng,0,0,0,0,0,11/6/18
+NY7,36007,NY,7,D,Nydia M.,Vel√°zquez,0,0,0,0,0,11/6/18
+NY8,36008,NY,8,D,Hakeem,Jeffries,0,0,0,0,0,11/6/18
+NY9,36009,NY,9,D,Yvette D.,Clarke,0,0,0,0,0,11/6/18
+NY10,36010,NY,10,D,Jerrold,Nadler,0,0,0,0,0,11/6/18
+NY11,36011,NY,11,R,Daniel,Donovan,0,0,0,0,0,11/6/18
+NY12,36012,NY,12,D,Carolyn,Maloney,0,0,0,0,0,11/6/18
+NY13,36013,NY,13,D,Adriano,Espaillat,0,0,0,0,0,11/6/18
+NY14,36014,NY,14,D,Joseph,Crowley,0,0,0,0,0,11/6/18
+NY15,36015,NY,15,D,Jos√© E.,Serrano,0,0,0,0,0,11/6/18
+NY16,36016,NY,16,D,Eliot,Engel,0,0,0,0,0,11/6/18
+NY17,36017,NY,17,D,Nita,Lowey,0,0,0,0,0,11/6/18
+NY18,36018,NY,18,D,Sean Patrick,Maloney,0,0,0,0,0,11/6/18
+NY19,36019,NY,19,R,John,Faso,0,0,0,0,0,11/6/18
+NY20,36020,NY,20,D,Paul D.,Tonko,0,0,0,0,0,11/6/18
+NY21,36021,NY,21,R,Elise,Stefanik,0,0,0,0,0,11/6/18
+NY22,36022,NY,22,R,Claudia,Tenney,0,0,0,0,0,11/6/18
+NY23,36023,NY,23,R,Tom,Reed,0,0,0,0,0,11/6/18
+NY24,36024,NY,24,R,John,Katko,0,0,0,0,0,11/6/18
+NY25,36025,NY,25,D,Louise,Slaughter,0,0,0,0,0,11/6/18
+NY26,36026,NY,26,D,Brian,Higgins,0,0,0,0,0,11/6/18
+NY27,36027,NY,27,R,Chris,Collins,0,0,0,0,0,11/6/18
+NC1,37001,NC,1,D,G.K.,Butterfield,0,0,0,0,0,11/6/18
+NC2,37002,NC,2,R,George,Holding,0,0,0,0,0,11/6/18
+NC3,37003,NC,3,R,Walter B.,Jones,0,0,0,0,0,11/6/18
+NC4,37004,NC,4,D,David,Price,0,0,0,0,0,11/6/18
+NC5,37005,NC,5,R,Virginia,Foxx,0,0,0,0,0,11/6/18
+NC6,37006,NC,6,R,Mark,Walker,0,0,0,0,0,11/6/18
+NC7,37007,NC,7,R,David,Rouzer,0,0,0,0,0,11/6/18
+NC8,37008,NC,8,R,Richard,Hudson,0,0,0,0,0,11/6/18
+NC9,37009,NC,9,R,Robert,Pittenger,0,0,0,0,0,11/6/18
+NC10,37010,NC,10,R,Patrick T.,McHenry,0,0,0,0,0,11/6/18
+NC11,37011,NC,11,R,Mark,Meadows,0,0,0,0,0,11/6/18
+NC12,37012,NC,12,D,Alma,Adams,0,0,0,0,0,11/6/18
+NC13,37013,NC,13,R,Ted,Budd,0,0,0,0,0,11/6/18
+NDAL,38001,ND,AL,R,Kevin,Cramer,0,0,0,0,0,11/6/18
+OH1,39001,OH,1,R,Steve,Chabot,0,0,0,0,0,11/6/18
+OH2,39002,OH,2,R,Brad,Wenstrup,0,0,0,0,0,11/6/18
+OH3,39003,OH,3,D,Joyce,Beatty,0,0,0,0,0,11/6/18
+OH4,39004,OH,4,R,Jim,Jordan,0,0,0,0,0,11/6/18
+OH5,39005,OH,5,R,Robert E.,Latta,0,0,0,0,0,11/6/18
+OH6,39006,OH,6,R,Bill,Johnson,0,0,0,0,0,11/6/18
+OH7,39007,OH,7,R,Bob,Gibbs,0,0,0,0,0,11/6/18
+OH8,39008,OH,8,R,Warren,Davidson,0,0,0,0,0,11/6/18
+OH9,39009,OH,9,D,Marcy,Kaptur,0,0,0,0,0,11/6/18
+OH10,39010,OH,10,R,Michael,Turner,0,0,0,0,0,11/6/18
+OH11,39011,OH,11,D,Marcia L.,Fudge,0,0,0,0,0,11/6/18
+OH12,39012,OH,12,,VACANT,,0,0,0,0,0,8/7/18
+OH13,39013,OH,13,D,Tim,Ryan,0,0,0,0,0,11/6/18
+OH14,39014,OH,14,R,David,Joyce,0,0,0,0,0,11/6/18
+OH15,39015,OH,15,R,Steve,Stivers,0,0,0,0,0,11/6/18
+OH16,39016,OH,16,R,Jim,Renacci,0,0,0,0,0,11/6/18
+OK1,40001,OK,1,R,Jim,Bridenstine,0,0,0,0,0,11/6/18
+OK2,40002,OK,2,R,Markwayne,Mullin,0,0,0,0,0,11/6/18
+OK3,40003,OK,3,R,Frank,Lucas,0,0,0,0,0,11/6/18
+OK4,40004,OK,4,R,Tom,Cole,0,0,0,0,0,11/6/18
+OK5,40005,OK,5,R,Steve,Russell,0,0,0,0,0,11/6/18
+OR1,41001,OR,1,D,Suzanne,Bonamici,0,0,0,0,0,11/6/18
+OR2,41002,OR,2,R,Greg,Walden,0,0,0,0,0,11/6/18
+OR3,41003,OR,3,D,Earl,Blumenauer,0,0,0,0,0,11/6/18
+OR4,41004,OR,4,D,Peter,DeFazio,0,0,0,0,0,11/6/18
+OR5,41005,OR,5,D,Kurt,Schrader,0,0,0,0,0,11/6/18
+PA1,42001,PA,1,D,Robert,Brady,0,0,0,0,0,11/6/18
+PA2,42002,PA,2,D,Dwight,Evans,0,0,0,0,0,11/6/18
+PA3,42003,PA,3,R,Mike,Kelly,0,0,0,0,0,11/6/18
+PA4,42004,PA,4,R,Scott,Perry,0,0,0,0,0,11/6/18
+PA5,42005,PA,5,R,Glenn W.,Thompson,0,0,0,0,0,11/6/18
+PA6,42006,PA,6,R,Ryan,Costello,0,0,0,0,0,11/6/18
+PA7,42007,PA,7,R,Pat,Meehan,0,0,0,0,0,11/6/18
+PA8,42008,PA,8,R,Brian,Fitzpatrick,0,0,0,0,0,11/6/18
+PA9,42009,PA,9,R,Bill,Shuster,0,0,0,0,0,11/6/18
+PA10,42010,PA,10,R,Tom,Marino,0,0,0,0,0,11/6/18
+PA11,42011,PA,11,R,Lou,Barletta,0,0,0,0,0,11/6/18
+PA12,42012,PA,12,R,Keith,Rothfus,0,0,0,0,0,11/6/18
+PA13,42013,PA,13,D,Brendan,Boyle,0,0,0,0,0,11/6/18
+PA14,42014,PA,14,D,Mike,Doyle,0,0,0,0,0,11/6/18
+PA15,42015,PA,15,R,Charles W.,Dent,0,0,0,0,0,11/6/18
+PA16,42016,PA,16,R,Lloyd,Smucker,0,0,0,0,0,11/6/18
+PA17,42017,PA,17,D,Matthew,Cartwright,0,0,0,0,0,11/6/18
+PA18,42018,PA,18,,VACANT,,0,0,0,0,0,3/13/18
+RI1,44001,RI,1,D,David,Cicilline,0,0,0,0,0,11/6/18
+RI2,44002,RI,2,D,Jim,Langevin,0,0,0,0,0,11/6/18
+SC1,45001,SC,1,R,Mark,Sanford,0,0,0,0,0,11/6/18
+SC2,45002,SC,2,R,Joe,Wilson,0,0,0,0,0,11/6/18
+SC3,45003,SC,3,R,Jeff,Duncan,0,0,0,0,0,11/6/18
+SC4,45004,SC,4,R,Trey,Gowdy,0,0,0,0,0,11/6/18
+SC5,45005,SC,5,R,Ralph,Norman,0,0,0,0,0,11/6/18
+SC6,45006,SC,6,D,James E.,Clyburn,0,0,0,0,0,11/6/18
+SC7,45007,SC,7,R,Tom,Rice,0,0,0,0,0,11/6/18
+SDAL,46001,SD,AL,R,Kristi,Noem,0,0,0,0,0,11/6/18
+TN1,47001,TN,1,R,Phil,Roe,0,0,0,0,0,11/6/18
+TN2,47002,TN,2,R,John J.,Duncan Jr.,0,0,0,0,0,11/6/18
+TN3,47003,TN,3,R,Chuck,Fleischmann,0,0,0,0,0,11/6/18
+TN4,47004,TN,4,R,Scott,DesJarlais,0,0,0,0,0,11/6/18
+TN5,47005,TN,5,D,Jim,Cooper,0,0,0,0,0,11/6/18
+TN6,47006,TN,6,R,Diane,Black,0,0,0,0,0,11/6/18
+TN7,47007,TN,7,R,Marsha,Blackburn,0,0,0,0,0,11/6/18
+TN8,47008,TN,8,R,David,Kustoff,0,0,0,0,0,11/6/18
+TN9,47009,TN,9,D,Steve,Cohen,0,0,0,0,0,11/6/18
+TX1,48001,TX,1,R,Louie,Gohmert,0,0,0,0,0,11/6/18
+TX2,48002,TX,2,R,Ted,Poe,0,0,0,0,0,11/6/18
+TX3,48003,TX,3,R,Sam,Johnson,0,0,0,0,0,11/6/18
+TX4,48004,TX,4,R,John,Ratcliffe,0,0,0,0,0,11/6/18
+TX5,48005,TX,5,R,Jeb,Hensarling,0,0,0,0,0,11/6/18
+TX6,48006,TX,6,R,Joe,Barton,0,0,0,0,0,11/6/18
+TX7,48007,TX,7,R,John,Culberson,0,0,0,0,0,11/6/18
+TX8,48008,TX,8,R,Kevin,Brady,0,0,0,0,0,11/6/18
+TX9,48009,TX,9,D,Al,Green,0,0,0,0,0,11/6/18
+TX10,48010,TX,10,R,Michael T.,McCaul,0,0,0,0,0,11/6/18
+TX11,48011,TX,11,R,K. Michael,Conaway,0,0,0,0,0,11/6/18
+TX12,48012,TX,12,R,Kay,Granger,0,0,0,0,0,11/6/18
+TX13,48013,TX,13,R,Mac,Thornberry,0,0,0,0,0,11/6/18
+TX14,48014,TX,14,R,Randy,Weber,0,0,0,0,0,11/6/18
+TX15,48015,TX,15,D,Vicente,Gonzalez,0,0,0,0,0,11/6/18
+TX16,48016,TX,16,D,Beto,O'Rourke,0,0,0,0,0,11/6/18
+TX17,48017,TX,17,R,Bill,Flores,0,0,0,0,0,11/6/18
+TX18,48018,TX,18,D,Sheila,Jackson Lee,0,0,0,0,0,11/6/18
+TX19,48019,TX,19,R,Jodey,Arrington,0,0,0,0,0,11/6/18
+TX20,48020,TX,20,D,Joaquin,Castro,0,0,0,0,0,11/6/18
+TX21,48021,TX,21,R,Lamar,Smith,0,0,0,0,0,11/6/18
+TX22,48022,TX,22,R,Pete,Olson,0,0,0,0,0,11/6/18
+TX23,48023,TX,23,R,Will,Hurd,0,0,0,0,0,11/6/18
+TX24,48024,TX,24,R,Kenny,Marchant,0,0,0,0,0,11/6/18
+TX25,48025,TX,25,R,Roger,Williams,0,0,0,0,0,11/6/18
+TX26,48026,TX,26,R,Michael,Burgess,0,0,0,0,0,11/6/18
+TX27,48027,TX,27,R,Blake,Farenthold,0,0,0,0,0,11/6/18
+TX28,48028,TX,28,D,Henry,Cuellar,0,0,0,0,0,11/6/18
+TX29,48029,TX,29,D,Gene,Green,0,0,0,0,0,11/6/18
+TX30,48030,TX,30,D,Eddie Bernice,Johnson,0,0,0,0,0,11/6/18
+TX31,48031,TX,31,R,John,Carter,0,0,0,0,0,11/6/18
+TX32,48032,TX,32,R,Pete,Sessions,0,0,0,0,0,11/6/18
+TX33,48033,TX,33,D,Marc,Veasey,0,0,0,0,0,11/6/18
+TX34,48034,TX,34,D,Filemon,Vela,0,0,0,0,0,11/6/18
+TX35,48035,TX,35,D,Lloyd,Doggett,0,0,0,0,0,11/6/18
+TX36,48036,TX,36,R,Brian,Babin,0,0,0,0,0,11/6/18
+UT1,49001,UT,1,R,Rob,Bishop,0,0,0,0,0,11/6/18
+UT2,49002,UT,2,R,Chris,Stewart,0,0,0,0,0,11/6/18
+UT3,49003,UT,3,R,John R.,Curtis,0,0,0,0,0,11/6/18
+UT4,49004,UT,4,R,Mia,Love,0,0,0,0,0,11/6/18
+VTAL,50001,VT,AL,D,Peter,Welch,0,0,0,0,0,11/6/18
+VA1,51001,VA,1,R,Robert J.,Wittman,0,0,0,0,0,11/6/18
+VA2,51002,VA,2,R,Scott,Taylor,0,0,0,0,0,11/6/18
+VA3,51003,VA,3,D,Robert C.,Scott,0,0,0,0,0,11/6/18
+VA4,51004,VA,4,D,A. Donald,McEachin,0,0,0,0,0,11/6/18
+VA5,51005,VA,5,R,Thomas,Garrett,0,0,0,0,0,11/6/18
+VA6,51006,VA,6,R,Bob,Goodlatte,0,0,0,0,0,11/6/18
+VA7,51007,VA,7,R,Dave,Brat,0,0,0,0,0,11/6/18
+VA8,51008,VA,8,D,Don,Beyer,0,0,0,0,0,11/6/18
+VA9,51009,VA,9,R,Morgan,Griffith,0,0,0,0,0,11/6/18
+VA10,51010,VA,10,R,Barbara,Comstock,0,0,0,0,0,11/6/18
+VA11,51011,VA,11,D,"Gerald E. ""Gerry""",Connolly,0,0,0,0,0,11/6/18
+WA1,53001,WA,1,D,Suzan,DelBene,0,0,0,0,0,11/6/18
+WA2,53002,WA,2,D,Rick,Larsen,0,0,0,0,0,11/6/18
+WA3,53003,WA,3,R,Jaime,Herrera Beutler,0,0,0,0,0,11/6/18
+WA4,53004,WA,4,R,Dan,Newhouse,0,0,0,0,0,11/6/18
+WA5,53005,WA,5,R,Cathy,McMorris Rodgers,0,0,0,0,0,11/6/18
+WA6,53006,WA,6,D,Derek,Kilmer,0,0,0,0,0,11/6/18
+WA7,53007,WA,7,D,Pramila,Jayapal,0,0,0,0,0,11/6/18
+WA8,53008,WA,8,R,David G.,Reichert,0,0,0,0,0,11/6/18
+WA9,53009,WA,9,D,Adam,Smith,0,0,0,0,0,11/6/18
+WA10,53010,WA,10,D,Denny,Heck,0,0,0,0,0,11/6/18
+WV1,54001,WV,1,R,David,McKinley,0,0,0,0,0,11/6/18
+WV2,54002,WV,2,R,Alex,Mooney,0,0,0,0,0,11/6/18
+WV3,54003,WV,3,R,Evan,Jenkins,0,0,0,0,0,11/6/18
+WI1,55001,WI,1,R,Paul D.,Ryan,1,0,0,0,0,11/6/18
+WI2,55002,WI,2,D,Mark,Pocan,0,0,0,0,0,11/6/18
+WI3,55003,WI,3,D,Ron,Kind,0,0,0,0,0,11/6/18
+WI4,55004,WI,4,D,Gwen,Moore,0,0,0,0,0,11/6/18
+WI5,55005,WI,5,R,F. James,Sensenbrenner,0,0,0,0,0,11/6/18
+WI6,55006,WI,6,R,Glenn,Grothman,0,0,0,0,0,11/6/18
+WI7,55007,WI,7,R,Sean P.,Duffy,0,0,0,0,0,11/6/18
+WI8,55008,WI,8,R,Mike,Gallagher,0,0,0,0,0,11/6/18
+WYAL,56001,WY,AL,R,Liz,Cheney,0,0,0,0,0,11/6/18
