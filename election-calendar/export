@@ -11,7 +11,7 @@ import yaml
 # the 2018/ directory which we use in subsequent years.
 files = {
     '2018': {
-        'election-day'               : '2018/g2018_eday.csv',
+        'election_day'               : '2018/g2018_eday.csv',
         'early_vote'                 : '2018/g2018_ev.csv',
         'voter_registration'         : '2018/g2018_vr.csv',
         'federal'                    : '2018/p2018_federal.csv',
