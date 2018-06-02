@@ -1,4 +1,4 @@
 python := election-calendar/export
 
-check:
+lint:
 	flake8 $(python) && pylint $(python)
