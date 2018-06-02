@@ -1,0 +1,4 @@
+flake8>=3.4
+jsonschema>=2.6.0
+pylint>=1.9.1
+PyYAML>=3.12
