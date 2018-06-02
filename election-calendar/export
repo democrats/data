@@ -33,13 +33,13 @@ files = {
 
 # Likewise, it seems the column names shouldn't embed the year so we
 # just clean it up here.
-def clean_key(k):
+def clean_key(key):
     "Translate election specific keys from csv files to something more generic."
-    k = re.sub('g2018_', 'general_', k)
-    k = re.sub('p2018_', 'primary_', k)
-    k = re.sub('_2018$', '', k)
-    k = re.sub('_2018_', '', k)
-    return k
+    key = re.sub('g2018_', 'general_', key)
+    key = re.sub('p2018_', 'primary_', key)
+    key = re.sub('_2018$', '', key)
+    key = re.sub('_2018_', '', key)
+    return key
 
 
 def load_data(csv_file, under, data):
